@@ -1,0 +1,16 @@
+{
+  "name": "launch-check",
+  "version": "1.0.0",
+  "description": "Deterministic launch checks for static websites",
+  "type": "module",
+  "bin": {
+    "launch-check": "./bin/launch-check.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
